@@ -83,3 +83,14 @@
     @apply bg-background text-foreground;
   }
 }
+
+.cl-formButtonPrimary {
+  @apply bg-brand-1;
+}
+.cl-footerActionLink {
+  @apply text-brand-1;
+}
+
+.cl-internal-ttumny[data-variant="solid"][data-color="primary"] {
+  box-shadow: none;
+}

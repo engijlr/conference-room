@@ -19,6 +19,11 @@ const config = {
     },
     extend: {
       colors: {
+        brand: {
+          1: "#07a0c3",
+          2: "#086788",
+          text: "#fff",
+        },
         dark: {
           1: "#1c1f2e",
           2: "#161925",
@@ -26,6 +31,10 @@ const config = {
         blue: {
           1: "#0E78F9",
           2: "#252A41",
+        },
+        pink: {
+          1: "#925E78",
+          2: "#F2EDEB",
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
