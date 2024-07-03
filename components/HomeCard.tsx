@@ -19,7 +19,7 @@ const HomeCard = ({
 }: HomeCardProps) => {
   return (
     <div
-      className={`${variant} px-4 py-6 flex flex-col justify-between w-full xl:max-w-[270px] min-h-[260px] rounded-[14px] cursor-pointer`}
+      className={`${variant} px-4 py-6 flex flex-col justify-between w-full min-h-[260px] rounded-[14px] cursor-pointer`}
       onClick={handleClick}
       key={title}
     >
