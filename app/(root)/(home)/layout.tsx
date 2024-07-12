@@ -1,6 +1,12 @@
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
+import { Metadata } from "next";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "ZOOM",
+  description: "Video calling app",
+};
 
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
   return (
